@@ -30,13 +30,13 @@
             <li class="gnav_menu"><a href="logout.php">ログアウト</a></li>
         </ul>
         <div class="main fadein">
-            <h1 class="main_text">ずっと、健康的な私でいるために</h1>
+            <h1 id="main_text" class="main_text">ずっと、健康的な私でいるために</h1>
         </div>
     </div>
 
-    <div class="content fadein">
-        <h1 class="content_title">私はこれで続けられる!</h1>
-        <div class="content_box">
+    <div class="content">
+        <h1 class="content_title scroll-fade">私はこれで続けられる!</h1>
+        <div class="content_box scroll-fade">
             <div class="image_block">
                 <img src="img/atarime.png" alt="">
             </div>
@@ -52,9 +52,9 @@
         </div>
     </div>
 
-    <div class="content fadein">
-        <h1 class="content_title">みなさまのお墨付きとは？</h1>
-        <div class="content_box">
+    <div class="content">
+        <h1 class="content_title scroll-fade">みなさまのお墨付きとは？</h1>
+        <div class="content_box scroll-fade">
             <div class="image_block2">
                 <img src="img/title-mainvisual.png" alt="">
             </div>
@@ -70,9 +70,9 @@
         </div>
     </div>
 
-    <div class="content fadein">
-        <h1 class="content_title">こんな方におするめ！</h1>
-        <div class="content_box">
+    <div class="content">
+        <h1 class="content_title scroll-fade">こんな方におするめ！</h1>
+        <div class="content_box scroll-fade">
             <div class="example_block">
                 <h2>ついつい間食しがち…</h2>
                 <img class="icon" src="img/Lollipop_Outline.png" alt="">
@@ -88,9 +88,9 @@
         </div>
     </div>
 
-    <div class="content fadein">
-        <h1 class="content_title">今ならお買い得！</h1>
-        <div class="content_box">
+    <div class="content">
+        <h1 class="content_title scroll-fade">今ならお買い得！</h1>
+        <div class="content_box scroll-fade">
             <div class="buy">
                 <img src="img/atarime_02.png" alt="">
                 <h2>通常1個350円のところを3個で1,000円で購入できます！</h2>
@@ -101,7 +101,7 @@
     <!-- フォント読み込み -->
     <script type="text/javascript" src="js/font.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="js/animation.js"></script>
+    <script src="js/animation.js"></script>
 </body>
 
 </html>

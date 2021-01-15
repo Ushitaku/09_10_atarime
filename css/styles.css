@@ -16,13 +16,19 @@ font-size : 100%;
 }
 
 .content{
-    opacity: 0.1;
     width: 100%;
     height: auto;
 }
 
-.fadein{
-    opacity: 1;
+.scroll-fade {
+  transform: translate3d(0, -50px, 0);
+  transition: 1s;
+  opacity: 0;
+}
+
+.scroll-fade.animated {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
 }
 
 .main{
@@ -40,7 +46,7 @@ font-size : 100%;
     font-size: 3.0em;
     color: white;
     background-color: black;
-    opacity: 80%;
+    display: none;
 }
 
 .content_title{
